@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ορέστης Σάββας | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <!-- Glide.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.core.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/glide.min.js"></script>
+
+  <!-- Lightbox2 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @keyframes fade-in-up {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in-up {
+      animation: fade-in-up 1s ease-out both;
+    }
+
+    .delay-100 { animation-delay: 0.1s; }
+    .delay-200 { animation-delay: 0.2s; }
+    .delay-300 { animation-delay: 0.3s; }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <!-- Hero Section -->
+  <header class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+    <video autoplay muted loop playsinline class="absolute w-full h-full object-cover opacity-60">
+      <source src="your-video-background.mp4" type="video/mp4" />
+      <img src="fallback.jpg" class="w-full h-full object-cover" />
+    </video>
+    <div class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+    <div class="relative z-10 px-6">
+      <h1 class="text-6xl md:text-7xl font-extrabold drop-shadow-2xl animate-fade-in-up">Ορέστης Σάββας</h1>
+      <p class="text-2xl mt-4 font-light animate-fade-in-up delay-100">🎓 Ψηφιακές Τέχνες & Κινηματογράφος</p>
+      <p class="mt-2 animate-fade-in-up delay-200">📍 Χαλκίδα | 📧 <a href="mailto:orestissavvas@gmail.com" class="underline">orestissavvas@gmail.com</a> | 📞 6984717687</p>
+      <a href="#projects" class="mt-6 inline-block bg-white text-black px-8 py-3 rounded-full shadow-lg hover:bg-gray-300 transition animate-fade-in-up delay-300">Δείτε τα Έργα</a>
+    </div>
+  </header>
+
+  <!-- Προφίλ -->
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">🎯 Προφίλ</h2>
+    <p class="text-lg leading-relaxed text-white/90">
+      Δημιουργικός και πολυδιάστατος επαγγελματίας στον τομέα των ψηφιακών τεχνών και του κινηματογράφου, με εξειδίκευση στο 3D animation, την επεξεργασία εικόνας και βίντεο, καθώς και την ανάπτυξη διαδραστικού περιεχομένου. Διαθέτω ισχυρό υπόβαθρο σε σύγχρονα εργαλεία παραγωγής, άριστες γνώσεις αγγλικών και εμπειρία τόσο σε επαγγελματικά projects όσο και σε ανεξάρτητες δημιουργίες με σημαντική απήχηση.</p>
+  </section>
+
+  <!-- Εκπαίδευση -->
+  <section class="bg-white/10 backdrop-blur-sm py-16 px-6 max-w-5xl mx-auto rounded-xl shadow-inner">
+    <h2 class="text-3xl font-bold mb-6">🎓 Εκπαίδευση & Σεμινάρια</h2>
+    <p class="text-white font-semibold text-xl">Πανεπιστήμιο Εκπα – Τμήμα Ψηφιακών Τεχνών & Κινηματογράφου</p>
+    <p class="mb-4">Βαθμός: 8,39 (Λίαν Καλώς) </p>
+    <h3 class="font-semibold text-lg mb-2">📚 Σεμινάρια</h3>
+    <ul class="list-disc list-inside text-white/90">
+      <li>Εύβοια Film Project – Δημιουργία και παραγωγή οπτικοακουστικών έργων</li>
+      <li>3D animation, Unity, ψηφιακό μοντάζ και οπτική αφήγηση</li>
+    </ul>
+  </section>
+
+  <!-- Εμπειρία -->
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">💼 Επαγγελματική Εμπειρία</h2>
+    <div class="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold">Skills For You – 3D Logo Animator</h3>
+      <ul class="list-disc list-inside text-white/90 mt-2">
+        <li>Δημιουργία δυναμικών logo animations</li>
+        <li>Συνεργασία με marketing ομάδες</li>
+        <li>Χρήση Blender, After Effects, DaVinci</li>
+      </ul>
+    </div>
+  </section>
+
+    <!-- Εμπειρία -->
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">🎥ΑΤΟΜΙΚΑ PROJECTS & ΠΛΑΤΦΟΡΜΕΣ</h2>
+      <div class="bg-white/10 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">Skills For You – 3D Logo Animator</h3>
+        <ul class="list-disc list-inside text-white/90 mt-2">
+          <li> Δημιουργία και διαχείριση επιτυχημένων YouTube καναλιών με υψηλή επισκεψιμότητα
+          </li>
+          <li>Παραγωγή, μοντάζ και προώθηση βίντεο με πρωτότυπο περιεχόμενο
+          </li>
+          <li>Βελτιστοποίηση SEO, thumbnails, περιγραφών και engagement
+          </li>
+        </ul>
+      </div>
+    </section>
+
+<!-- Project Gallery Section with Modal -->
+<!-- Projects -->
+<section id="projects" class="bg-gray-800 py-20 px-6 text-white">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-14">🎥 Επιλεγμένα Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+      
+      <!-- Project Card -->
+      <div class="bg-white/5 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-2xl transition duration-300 cursor-pointer" onclick="openModal('project2.jpg', 'Έργο προβολής που παρουσιάστηκε σε έκθεση, βασισμένο σε πραγματικό χρόνο ανάλυση του ήχου, δημιουργώντας δυναμικά οπτικά εφέ με particles που αλληλεπιδρούν με τον περιβάλλοντα ήχο.')">
+        <img src="project2.jpg" class="w-full h-48 object-cover" alt="YouTube Project" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">📺 Έργο Διαδραστικής Προβολής με Ήχο και Particles</h3>
+          <p class="text-sm text-white/80">Έργο προβολής που παρουσιάστηκε σε έκθεση, βασισμένο σε πραγματικό χρόνο ανάλυση του ήχου, δημιουργώντας δυναμικά οπτικά εφέ με particles που αλληλεπιδρούν με τον περιβάλλοντα ήχο.</p>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white/5 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-2xl transition duration-300 cursor-pointer" onclick="openModal('project7.jpg', '3D Animation Χαρακτήρα για Project Ευκαιρίας', 'Σύντομο animation χαρακτήρα σε περιβάλλον νύχτας, δημιουργημένο για ένα ειδικό project υποστήριξης νέων δημιουργών. Έμφαση στην ατμόσφαιρα και την κίνηση του σώματος.')">
+        <img src="project7.jpg" class="w-full h-48 object-cover" alt="3D Animation" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">3D Animation Χαρακτήρα για Project Ευκαιρίας</h3>
+          <p class="text-sm text-white/80">Σύντομο animation χαρακτήρα σε περιβάλλον νύχτας, δημιουργημένο για ένα ειδικό project υποστήριξης νέων δημιουργών. Έμφαση στην ατμόσφαιρα και την κίνηση του σώματος.</p>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white/5 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-2xl transition duration-300 cursor-pointer" onclick="openModal('project3.jpg', '🕹️ Zombie Game – Unity', 'Παιχνίδι τύπου survival με βασικό εχθρό ζόμπι, σχεδιασμένο σε Unity. Περιλαμβάνει σκορ, βασικό UI και προσομοίωση περιβάλλοντος πόλης με χαμηλό φωτισμό.')">
+        <img src="project3.jpg" class="w-full h-48 object-cover" alt="Unity Project" />
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">🕹️ Zombie Game – Unity</h3>
+          <p class="text-sm text-white/80">Παιχνίδι τύπου survival με βασικό εχθρό ζόμπι, σχεδιασμένο σε Unity. Περιλαμβάνει σκορ, βασικό UI και προσομοίωση περιβάλλοντος πόλης με χαμηλό φωτισμό.</p>
+        </div>
+      </div>
+
+
+            <!-- Project Card -->
+            <div class="bg-white/5 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-2xl transition duration-300 cursor-pointer" onclick="openModal('project1.jpg', 'Δημιουργία εικονικού περιβάλλοντος εμπνευσμένου από τον Μπομπ Σφουγγαράκη, με cartoon αισθητική, φώτα και κινούμενα αντικείμενα. Σχεδιάστηκε με δυνατότητα εφαρμογής σε VR.')">
+              <img src="project1.jpg" class="w-full h-48 object-cover" alt="YouTube Project" />
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">📺3D Υποβρύχιο Περιβάλλον VR στο Blender</h3>
+                <p class="text-sm text-white/80">Δημιουργία εικονικού περιβάλλοντος εμπνευσμένου από τον Μπομπ Σφουγγαράκη, με cartoon αισθητική, φώτα και κινούμενα αντικείμενα. Σχεδιάστηκε με δυνατότητα εφαρμογής σε VR.</p>
+              </div>
+            </div>
+      
+            <!-- Project Card -->
+            <div class="bg-white/5 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-2xl transition duration-300 cursor-pointer" onclick="openModal('project5.jpg', 'Survival Game – Unity', 'Παιχνίδι πρώτου προσώπου σε Unity, με μηχανισμούς επιβίωσης, περιβάλλοντα voxel και GUI για αλληλεπίδραση με αντικείμενα. Περιλαμβάνει σύστημα αποθήκευσης αντικειμένων.')">
+              <img src="project5.jpg" class="w-full h-48 object-cover" alt="3D Animation" />
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">Survival Game – Unity</h3>
+                <p class="text-sm text-white/80">Παιχνίδι πρώτου προσώπου σε Unity, με μηχανισμούς επιβίωσης, περιβάλλοντα voxel και GUI για αλληλεπίδραση με αντικείμενα. Περιλαμβάνει σύστημα αποθήκευσης αντικειμένων.</p>
+              </div>
+            </div>
+      
+            <!-- Project Card -->
+            <div class="bg-white/5 backdrop-blur-sm border border-gray-700 rounded-xl overflow-hidden shadow hover:shadow-2xl transition duration-300 cursor-pointer" onclick="openModal('project6.jpg', 'Theseus Project – 3D Animation', 'Εισαγωγικό animation για το Theseus Project, με γραφικά εμπνευσμένα από την αρχαιότητα και χρήση εφέ φωτός και καπνού για ενίσχυση της κινηματογραφικής αισθητικής.')">
+              <img src="project6.jpg" class="w-full h-48 object-cover" alt="Unity Project" />
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">Theseus Project – 3D Animation</h3>
+                <p class="text-sm text-white/80">Εισαγωγικό animation για το Theseus Project, με γραφικά εμπνευσμένα από την αρχαιότητα και χρήση εφέ φωτός και καπνού για ενίσχυση της κινηματογραφικής αισθητικής.</p>
+              </div>
+            </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Fullscreen Modal -->
+<div id="imageModal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center flex-col px-6 text-center text-white">
+  <button onclick="closeModal()" class="absolute top-4 right-6 text-white text-4xl font-bold hover:text-red-400">&times;</button>
+  <img id="modalImage" src="" class="max-w-4xl w-full max-h-[70vh] object-contain rounded-xl shadow-xl mb-6" />
+  <h3 id="modalTitle" class="text-2xl font-semibold mb-2"></h3>
+  <p id="modalDescription" class="text-white/80 max-w-2xl mx-auto"></p>
+</div>
+
+<!-- Script -->
+<script>
+  function openModal(src, title, desc) {
+    document.getElementById('modalImage').src = src;
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalDescription').textContent = desc;
+    document.getElementById('imageModal').classList.remove('hidden');
+    document.getElementById('imageModal').classList.add('flex');
+  }
+
+  function closeModal() {
+    document.getElementById('imageModal').classList.add('hidden');
+    document.getElementById('imageModal').classList.remove('flex');
+  }
+
+  // Optional: Κλείσιμο όταν κάνεις click έξω από την εικόνα
+  document.getElementById('imageModal').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+</script>
+
+
+  <!-- Δεξιότητες -->
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">🛠 Τεχνικές Δεξιότητες</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white/10 p-4 rounded shadow">
+        <h4 class="font-semibold text-lg mb-1">🎬 Μοντάζ</h4>
+        <p>DaVinci, Premiere, After Effects</p>
+      </div>
+      <div class="bg-white/10 p-4 rounded shadow">
+        <h4 class="font-semibold text-lg mb-1">🎨 3D & Animation</h4>
+        <p>Blender, Unity</p>
+      </div>
+      <div class="bg-white/10 p-4 rounded shadow">
+        <h4 class="font-semibold text-lg mb-1">🔊 Ήχος & Εικόνα</h4>
+        <p>Photoshop, Audacity, Audition</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Γλώσσες & Ενδιαφέροντα -->
+  <section class="bg-white/10 py-16 px-6 max-w-5xl mx-auto rounded-lg shadow-inner">
+    <h2 class="text-3xl font-bold mb-4">🌐 Γλώσσες</h2>
+    <p>Ελληνικά: Μητρική | Αγγλικά: Άριστη χρήση</p>
+    <h2 class="text-3xl font-bold mt-10 mb-4">💡 Ενδιαφέροντα</h2>
+    <ul class="list-disc list-inside text-white/90">
+      <li>Σκηνοθεσία & οπτικοακουστική αφήγηση</li>
+      <li>Διαδραστικά μέσα</li>
+      <li>YouTube παραγωγές</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black/80 text-center py-6 mt-10">
+    <p>&copy; 2025 Ορέστης Σάββας | <a href="mailto:orestissavvas@gmail.com" class="underline">orestissavvas@gmail.com</a></p>
+  </footer>
+
+  <!-- Init Glide -->
+  <script>
+    new Glide('.glide', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 1,
+      focusAt: 'center',
+      autoplay: 4000
+    }).mount();
+  </script>
+
+</body>
+</html>
